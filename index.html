@@ -76,6 +76,23 @@
         padding: 15px;
         width: 60%;
       }
+      @media (max-width: 768px) {
+        .navbar-brand img {
+          width: 100px; /* Adjust as needed */
+        }
+      }
+
+      @media (max-width: 576px) {
+        .navbar-brand img {
+          width: 150px; /* Even smaller on extra-small screens */
+        }
+      }
+      @media (max-width: 375px) {
+        .navbar-brand img {
+          width: 50px; /* Even smaller on extra-small screens */
+        }
+      }
+
     </style>
   </head>
   <body>
@@ -84,7 +101,7 @@
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
           <a class="navbar-brand" href="index.html">
-            <img src="/img/logo.png" alt="Gourmet Logo" style="height: auto; width: 300px;">
+            <img src="/img/logo.png" alt="Gourmet Logo" style="height: auto; width: 200px;">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -133,9 +150,10 @@
           <div class="container">
             <div class="row slider-text align-items-center justify-content-center">
               <div class="col-md-8 text-center col-sm-12 ">
-                <h1 data-aos="fade-up mb-5">Mangia e Bevi da Centrale</h1>
+                <h1 data-aos="fade-up mb-5">Assapora ogni boccone, gusta ogni sorso</h1>
                 <p data-aos="fade-up" data-aos-delay="200">
                   <a href="#menu" class="btn btn-white btn-outline-white">Menu</a>
+                  <a href="http://localhost:8080/business/calendar?businessId=8#calendar" class="btn btn-white btn-outline-white">Prenota</a>
                 </p>
               </div>
             </div>
@@ -146,9 +164,10 @@
           <div class="container">
             <div class="row slider-text align-items-center justify-content-center">
               <div class="col-md-8 text-center col-sm-12 ">
-                <h1 data-aos="fade-up mb-5">Degusta le specialità da Centrale</h1>
+                <h1 data-aos="fade-up mb-5">Scopri le nostre specialità culinarie</h1>
                 <p data-aos="fade-up" data-aos-delay="200">
                   <a href="#menu" class="btn btn-white btn-outline-white">Menu</a>
+                  <a href="http://localhost:8080/business/calendar?businessId=8#calendar" class="btn btn-white btn-outline-white">Prenota</a>
                 </p>
               </div>
             </div>

@@ -147,7 +147,7 @@ header .navbar-brand span {
 
 @media (min-width: 768px) {
     header .navbar-brand span {
-        color: #ced4da;
+        color: #030303;
     }
 }
 
@@ -210,7 +210,7 @@ header .navbar .dropdown-menu:before {
     width: 0;
     position: absolute;
     pointer-events: none;
-    border-bottom-color: #fff;
+    border-bottom-color: rgb(255, 255, 255);
     border-width: 7px;
 }
 
@@ -258,7 +258,7 @@ header .navbar .cta-btn a:hover {
 /* Media Query for small screens: Make navbar background a semi-transparent white */
 @media (max-width: 767px) {
     header .navbar {
-        background: rgba(255, 255, 255, 0.8) !important;
+        background: rgba(255, 255, 255, 0.2) !important;
     }
 }
 
